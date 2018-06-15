@@ -34,8 +34,6 @@
 		B6F8C38120B2D7030028EDB5 /* RectangleAreaTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleAreaTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F8C38320B2D7030028EDB5 /* RectangleAreaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleAreaTest.swift; sourceTree = "<group>"; };
 		B6F8C38520B2D7030028EDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6F8C38F20B2D71A0028EDB5 /* trtrtr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trtrtr.swift; sourceTree = "<group>"; };
-		B6F8C39120B2D71A0028EDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F8C39520B2D7C80028EDB5 /* CalculationRectangleArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationRectangleArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +60,6 @@
 			children = (
 				B6F8C36F20B2C7650028EDB5 /* LiskovSubstitutionPrinciple-Demo */,
 				B6F8C38220B2D7030028EDB5 /* RectangleAreaTest */,
-				B6F8C38E20B2D71A0028EDB5 /* trtrtr */,
 				B6F8C36E20B2C7650028EDB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,15 +90,6 @@
 				B6F8C38520B2D7030028EDB5 /* Info.plist */,
 			);
 			path = RectangleAreaTest;
-			sourceTree = "<group>";
-		};
-		B6F8C38E20B2D71A0028EDB5 /* trtrtr */ = {
-			isa = PBXGroup;
-			children = (
-				B6F8C38F20B2D71A0028EDB5 /* trtrtr.swift */,
-				B6F8C39120B2D71A0028EDB5 /* Info.plist */,
-			);
-			path = trtrtr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

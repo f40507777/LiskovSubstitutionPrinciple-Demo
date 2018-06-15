@@ -10,26 +10,35 @@ import Foundation
 
 class Rectangle {
     var width: Float = 0.0
+    
     var height: Float = 0.0
+    
 }
 
 class Square: Rectangle {
-    private var equalLength: Float = 0.0
+    
+    private var widthStore: Float!
+    
+    private var heightStore: Float!
+
     override var width: Float {
         get {
-            return self.equalLength
+            return widthStore
         }
         set {
-            self.equalLength = newValue
+            widthStore = newValue
+            heightStore = newValue
         }
     }
     
     override var height: Float {
         get {
-            return equalLength
+            return heightStore
         }
         set {
-            self.equalLength = newValue
+            widthStore = newValue
+            heightStore = newValue
         }
     }
+    
 }

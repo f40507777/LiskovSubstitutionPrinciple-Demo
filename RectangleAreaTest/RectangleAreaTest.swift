@@ -23,4 +23,8 @@ class RectangleAreaTest: XCTestCase {
         square.height = 5
         XCTAssertEqual(CalculationRectangleArea().area(rectangle: square), 10)
     }
+    
 }
+
+
+
